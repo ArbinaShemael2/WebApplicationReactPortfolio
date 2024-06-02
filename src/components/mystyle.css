@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #AC8968;
+}
+
+#headerStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    position: fixed;
+    top: 0;
+    left: 0;    
+    z-index: 1000;
+    background-color: #3E362E;
+    
+}
+
+#logo-name {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+#h1Style {
+    font-size: 24px;
+    margin: 0;
+}
+
+#navagationStyle {
+    display: flex;
+    gap: 20px;
+}
+
+#navagationStyle a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#navagationStyle a:hover {
+    text-decoration: underline;
+}
+
+main {
+   
+    width:100vw;
+    padding-top:0px;
+   
+   
+}
+#HomeD{
+    width:100vw;
+    position :relative;
+    margin:0;
+    padding:0;
+    
+   
+}
+#HomePic{
+    width:100%;
+    max-height: 500px;; 
+    height: auto;
+    display: block;
+    object-fit: cover; 
+    
+}
+#root{
+    padding:0;
+    margin:0;
+   
+
+    
+}
+
+#HomeH1{
+    font-family: Arial, Helvetica, sans-serif;
+    top: 100%; 
+    left: 20px; 
+    transform: translateY(-50%);
+    font-family: "Lucida Handwriting";
+    margin-top:50px;
+    margin-right:100%;
+   
+    
+}
+#homeP{
+   
+    top: 300%; 
+    left: 20px; 
+    transform: translateY(-50%);
+    font-family: "Lucida Handwriting";
+    background-color:#AC8968;
+    margin-top:2%;
+
+}
+#contentContainer{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left:10%;
+
+}
+
+#leftContent, #rightContent {
+    width: 45%;
+}
+#leftContent img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+#mypic {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+#AH1{
+    padding-bottom:20px;
+    font-family: "Lucida Handwriting";
+}
+#projectM {
+    padding: 2rem;
+    padding-top: 6rem; 
+}
+
+#projects {
+    background-color:antiquewhite;
+    padding: 2rem;
+    border-radius: 8px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Lucida Handwriting";
+}
+
+#projects h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project img {
+    max-width: 100%;
+    height: 50%;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 1rem;
+    color: black;
+    margin-right: 50%;
+    margin-left:20%;
+}
+
+.project p {
+    color: #666;
+}
+
+b{
+    color:black;
+}
+
+.project li{
+    color:black;
+    list-style-type: none;
+}
+
+#mainStyle {
+    margin-bottom:10%;
+}
+
+#servicesTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Lucida Handwriting";
+
+
+}
+
+#services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.service-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    
+
+    color: #333;
+}
+
+.service-description {
+    font-size: 1rem;
+    color: #555;
+}
+#mainStyleC {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+
+#contactTitle {
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: "Lucida Handwriting";
+
+}
+
+#contactSection {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#contactPanel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    
+}
+
+#contactForm {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 30%;
+ 
+}
+
+#contactDetails {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    height: 50%;
+   
+   
+
+}
+#contactDetails p, h3,Strong{
+    color:black;
+}
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color:black;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
